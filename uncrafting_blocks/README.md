@@ -8,7 +8,7 @@ Last edited 01/20/2019
 
 Adds "uncrafting" recipes for some storage blocks and brick blocks.  Includes the following:
 
- * Nether wart blcok
+ * Nether wart block
  * Block of quartz
  * Bricks
  * Nether Bricks
