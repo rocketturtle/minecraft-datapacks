@@ -6,4 +6,4 @@ Last edited 01/20/2019
 
 # About
 
-Replaces wool dyeing recipes to be more like the glass-dyeing recipe.  Find the ingredients in the recipe book!
+Changes the wool-dyeing recipes to be more like the glass-dyeing recipes.  Find the ingredients in the recipe book!
