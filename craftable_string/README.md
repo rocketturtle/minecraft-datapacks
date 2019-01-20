@@ -6,4 +6,4 @@ Last edited 01/20/2019
 
 # About
 
-Adds "uhncrafting" recipe to turn white wool into string.  Endorsed by spiders everywhere.
+Adds "uncrafting" recipe to turn white wool into string.  Endorsed by spiders everywhere.
