@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "group": "carpetwool",
+    "ingredients": [
+        {
+            "item": "minecraft:magenta_carpet"
+        },
+        {
+            "item": "minecraft:magenta_carpet"
+        },
+        {
+            "item": "minecraft:magenta_carpet"
+        }
+    ],
+    "result": {
+        "item": "minecraft:magenta_wool",
+        "count": 2
+    }
+}

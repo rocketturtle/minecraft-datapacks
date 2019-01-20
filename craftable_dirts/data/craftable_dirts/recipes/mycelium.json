@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "DM",
+        "MD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:dirt"
+        },
+        "M": {
+            "tag": "craftable_dirts:mushrooms"
+        }
+    },
+    "result": {
+        "item": "minecraft:mycelium",
+        "count": 1
+    }
+}

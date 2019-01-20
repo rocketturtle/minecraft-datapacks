@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "CS",
+        "SC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:coarse_dirt"
+        },
+        "S": {
+            "item": "minecraft:spruce_leaves"
+        }
+    },
+    "result": {
+        "item": "minecraft:podzol",
+        "count": 1
+    }
+}
