@@ -1,8 +1,8 @@
 # Craftable Dirt Types
 
-Tested in Minecraft 1.13.2 and snapshot 19w03c
+Tested in Minecraft 1.14.4
 
-Last edited 01/20/2019
+Last edited 07/28/2019
 
 # About
 

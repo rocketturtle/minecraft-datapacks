@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+	{
+      "item": "minecraft:cobblestone"
+    },
+	{
+      "item": "minecraft:stone_hoe"
+    }
+  ],
+  "result": {
+    "item": "minecraft:stone_hoe",
+    "count": 1
+  }
+}

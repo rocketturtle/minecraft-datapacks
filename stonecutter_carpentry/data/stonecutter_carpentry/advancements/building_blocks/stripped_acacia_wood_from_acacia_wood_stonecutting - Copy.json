@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "stonecutter_carpentry:stripped_acacia_wood_from_acacia_wood_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_acacia_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:acacia_wood"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "stonecutter_carpentry:stripped_acacia_wood_from_acacia_wood_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_acacia_wood",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "tag": "simple_weapon_repair:hoes"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_hoe"
+  }
+}

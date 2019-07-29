@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+    },
+	{
+      "tag": "minecraft:planks"
+    },
+	{
+      "tag": "minecraft:planks"
+    },
+	{
+      "item": "minecraft:wooden_axe"
+    }
+  ],
+  "result": {
+    "item": "minecraft:wooden_axe",
+    "count": 1
+  }
+}

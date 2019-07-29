@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftable_string:string_from_carpets"
+    ]
+  },
+  "criteria": {
+    "has_carpets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:carpets"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftable_string:string_from_carpets"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_carpets",
+      "has_the_recipe"
+    ]
+  ]
+}

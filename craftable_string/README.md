@@ -1,9 +1,9 @@
 # Craftable String
 
-Tested in Minecraft 1.13.2 and snapshot 19w03c
+Tested in Minecraft 1.14.4
 
-Last edited 01/20/2019
+Last edited 07/29/2019
 
 # About
 
-Adds "uncrafting" recipe to turn white wool into string.  Endorsed by spiders everywhere.
+Adds "uncrafting" recipe to turn any wool or carpet into string.  Endorsed by spiders everywhere.

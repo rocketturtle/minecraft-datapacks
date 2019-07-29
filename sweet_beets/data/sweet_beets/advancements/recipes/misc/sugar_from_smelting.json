@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "sweet_beets:sugar_from_smelting"
+    ]
+  },
+  "criteria": {
+    "has_beets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:beetroot"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "sweet_beets:sugar_from_smelting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_beets",
+      "has_the_recipe"
+    ]
+  ]
+}
