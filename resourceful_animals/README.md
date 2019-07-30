@@ -1,4 +1,4 @@
-# Grinding Cobble
+# Resourceful Animals
 
 Tested in Minecraft 1.14.4
 
