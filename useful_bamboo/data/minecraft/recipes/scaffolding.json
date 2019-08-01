@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I~I",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "~": {
+      "item": "minecraft:string"
+    },
+    "I": {
+      "tag": "useful_bamboo:sticktypes"
+    }
+  },
+  "result": {
+    "item": "minecraft:scaffolding",
+    "count": 6
+  }
+}
