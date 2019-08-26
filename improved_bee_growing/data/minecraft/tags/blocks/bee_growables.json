@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:crops",
+	"#minecraft:saplings",
+    "minecraft:sweet_berry_bush",
+	"minecraft:sugar_cane",
+	"minecraft:bamboo",
+	"minecraft:bamboo_sapling",
+	"minecraft:lilac",
+	"minecraft:peony",
+	"minecraft:rose_bush",
+	"minecraft:sunflower",
+	"minecraft:grass_block"
+  ]
+}
