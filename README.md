@@ -1,8 +1,8 @@
 # RocketTurtle's Minecraft Data Packs
 
-Tested in Minecraft 1.14.4
+Tested in Minecraft 1.14.4 and snapshot 19w34a
 
-Last edited 07/29/2019
+Last edited 08/25/2019
 
 # About
 
