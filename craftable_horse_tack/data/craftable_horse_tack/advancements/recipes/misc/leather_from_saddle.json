@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftable_horse_tack:leather_from_saddle"
+    ]
+  },
+  "criteria": {
+    "has_saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:saddle"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftable_horse_tack:leather_from_saddle"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_saddle",
+      "has_the_recipe"
+    ]
+  ]
+}

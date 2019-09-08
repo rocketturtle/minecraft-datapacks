@@ -1,0 +1,6 @@
+ {
+  "pack": {
+    "pack_format": 3,
+    "description": "Smelting armors returns a full ingot."
+  }
+}

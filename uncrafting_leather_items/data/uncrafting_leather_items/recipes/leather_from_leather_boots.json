@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_boots"
+    }
+  ],
+  "result": {
+    "item": "minecraft:leather"
+  }
+}
