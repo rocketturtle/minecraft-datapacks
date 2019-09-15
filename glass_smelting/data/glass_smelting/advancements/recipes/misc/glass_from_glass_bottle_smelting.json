@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "glass_smelting:glass_from_glass_bottle_smelting"
+    ]
+  },
+  "criteria": {
+    "has_glass_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:glass_bottle"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "glass_smelting:glass_from_glass_bottle_smelting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_glass_bottle",
+      "has_the_recipe"
+    ]
+  ]
+}

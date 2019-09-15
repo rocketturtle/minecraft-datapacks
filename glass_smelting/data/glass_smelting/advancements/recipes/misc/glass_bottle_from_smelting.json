@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "glass_smelting:bottle_from_smelting"
+      "glass_smelting:glass_bottle_from_smelting"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "glass_smelting:bottle_from_smelting"
+        "recipe": "glass_smelting:glass_bottle_from_smelting"
       }
     }
   },
