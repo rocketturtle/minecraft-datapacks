@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "stonecutter_carpentry:stripped_warped_hyphae_from_warped_hyphae_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_warped_hyphae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:warped_hyphae"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "stonecutter_carpentry:stripped_warped_hyphae_from_warped_hyphae_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_warped_hyphae",
+      "has_the_recipe"
+    ]
+  ]
+}

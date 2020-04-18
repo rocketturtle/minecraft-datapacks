@@ -10,7 +10,7 @@
       "tag": "simple_weapon_repair:swords"
     },
     "X": {
-      "item": "minecraft:cobblestone"
+      "tag": "minecraft:stone_tool_materials"
     }
   },
   "result": {

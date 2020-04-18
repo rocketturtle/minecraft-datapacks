@@ -9,7 +9,7 @@
       "tag": "simple_weapon_repair:axes"
     },
     "X": {
-      "item": "minecraft:cobblestone"
+      "tag": "minecraft:stone_tool_materials"
     }
   },
   "result": {
