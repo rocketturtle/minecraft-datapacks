@@ -1,12 +1,12 @@
 # RocketTurtle's Minecraft Data Packs
 
-Tested in Minecraft 1.14.4 and snapshot 19w36a
+Tested in Minecraft 1.15.2 and snapshot 20w16a
 
-Last edited 09/08/2019
+Last edited 04/17/2020
 
 # About
 
-These data packs were designed to add functionality to "vanilla" Minecraft, without the use of mods.  Please see the README.md file for each data pack for more information.
+These data packs were designed to add functionality to "vanilla" Minecraft, without the use of mods.  These data packs focus on expanding loot tables, and adding alternate crafting recipes.  Please see the README.md file for each data pack for more information.
 
 # How to Install
 
