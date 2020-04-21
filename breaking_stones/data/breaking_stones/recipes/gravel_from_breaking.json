@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "breaking_stones:breakable_stones"
+        },
+        {
+            "tag": "breaking_stones:breakable_stones"
+        },
+        {
+            "tag": "breaking_stones:breakable_stones"
+        },
+        {
+            "tag": "breaking_stones:breakable_stones"
+        },
+        {
+            "tag": "breaking_stones:breakable_stones"
+        },
+        {
+            "tag": "breaking_stones:breakable_stones"
+        },
+        {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        {
+            "tag": "breaking_stones:breakable_stones"
+        },
+        {
+            "tag": "breaking_stones:breakable_stones"
+        }
+    ],
+    "result": {
+        "item": "minecraft:gravel",
+        "count": 8
+    }
+}

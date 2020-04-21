@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cobblestone_stairs",
+    "minecraft:cobblestone_wall",
+    "minecraft:stone",
+    "minecraft:stone_stairs",
+    "minecraft:stone_bricks",
+    "minecraft:stone_brick_stairs",
+    "minecraft:stone_brick_wall",
+    "minecraft:chiseled_stone_bricks",
+    "minecraft:cracked_stone_bricks",
+    "minecraft:smooth_stone"
+  ]
+}

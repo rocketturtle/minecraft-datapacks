@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "broken_blackstones",
+    "ingredients": [
+        {
+            "tag": "breaking_stones:blackstone_breakables"
+        },
+        {
+            "tag": "breaking_stones:blackstone_breakables"
+        },
+        {
+            "tag": "breaking_stones:blackstone_breakables"
+        },
+        {
+            "tag": "breaking_stones:blackstone_breakables"
+        },
+        {
+            "tag": "breaking_stones:blackstone_breakables"
+        },
+        {
+            "tag": "breaking_stones:blackstone_breakables"
+        },
+        {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        {
+            "tag": "breaking_stones:blackstone_breakables"
+        },
+        {
+            "tag": "breaking_stones:blackstone_breakables"
+        }
+    ],
+    "result": {
+        "item": "minecraft:blackstone",
+        "count": 8
+    }
+}

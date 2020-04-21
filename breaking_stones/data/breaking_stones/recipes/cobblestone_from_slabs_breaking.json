@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "broken_cobblestones",
+    "ingredients": [
+        {
+            "tag": "breaking_stones:stone_slab_breakables"
+        },
+        {
+            "tag": "breaking_stones:stone_slab_breakables"
+        },
+        {
+            "tag": "breaking_stones:stone_slab_breakables"
+        },
+        {
+            "tag": "breaking_stones:stone_slab_breakables"
+        },
+        {
+            "tag": "breaking_stones:stone_slab_breakables"
+        },
+        {
+            "tag": "breaking_stones:stone_slab_breakables"
+        },
+        {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        {
+            "tag": "breaking_stones:stone_slab_breakables"
+        },
+        {
+            "tag": "breaking_stones:stone_slab_breakables"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cobblestone",
+        "count": 4
+    }
+}

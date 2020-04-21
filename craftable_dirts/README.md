@@ -6,4 +6,4 @@ Last edited 04/17/2020
 
 # About
 
-Adds crafting recipes for mycelium and podzol.  Find the ingredients in the recipe book!
+Adds crafting recipes for mycelium, podzol, crimson nylium, and warped nylium.  Find the ingredients in the recipe book!

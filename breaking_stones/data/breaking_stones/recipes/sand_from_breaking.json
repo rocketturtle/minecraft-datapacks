@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "broken_sandstones",
+    "ingredients": [
+        {
+            "tag": "breaking_stones:sand_breakables"
+        },
+        {
+            "tag": "breaking_stones:sand_breakables"
+        },
+        {
+            "tag": "breaking_stones:sand_breakables"
+        },
+        {
+            "tag": "breaking_stones:sand_breakables"
+        },
+        {
+            "tag": "breaking_stones:sand_breakables"
+        },
+        {
+            "tag": "breaking_stones:sand_breakables"
+        },
+        {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        {
+            "tag": "breaking_stones:sand_breakables"
+        },
+        {
+            "tag": "breaking_stones:sand_breakables"
+        }
+    ],
+    "result": {
+        "item": "minecraft:sand",
+        "count": 32
+    }
+}

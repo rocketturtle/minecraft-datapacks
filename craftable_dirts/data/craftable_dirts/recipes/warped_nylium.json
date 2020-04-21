@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DM",
+        "MD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:netherrack"
+        },
+        "M": {
+            "item": "minecraft:warped_fungus"
+        }
+    },
+    "result": {
+        "item": "minecraft:warped_nylium",
+        "count": 1
+    }
+}
