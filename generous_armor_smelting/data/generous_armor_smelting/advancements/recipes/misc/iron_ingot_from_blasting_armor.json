@@ -1,0 +1,76 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "generous_armor_smelting:iron_ingot_from_blasting_armor"
+    ]
+  },
+  "criteria": {
+    "has_iron_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [ "minecraft:iron_helmet" ]
+          }
+        ]
+      }
+    },
+    "has_iron_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [ "minecraft:iron_chestplate" ]
+          }
+        ]
+      }
+    },
+    "has_iron_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [ "minecraft:iron_leggings" ]
+          }
+        ]
+      }
+    },
+    "has_iron_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [ "minecraft:iron_boots" ]
+          }
+        ]
+      }
+    },
+    "has_iron_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [ "minecraft:iron_horse_armor" ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "generous_armor_smelting:iron_ingot_from_blasting_armor"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_iron_helmet",
+      "has_iron_chestplate",
+      "has_iron_leggings",
+      "has_iron_boots",
+      "has_iron_horse_armor",
+      "has_the_recipe"
+    ]
+  ]
+}

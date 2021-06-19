@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smoking",
+  "group": "sugar",
   "ingredient": {
     "item": "minecraft:beetroot"
   },

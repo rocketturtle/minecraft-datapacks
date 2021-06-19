@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:wooden_shovel"
+            "items": [ "minecraft:wooden_shovel" ]
           }
         ]
       }

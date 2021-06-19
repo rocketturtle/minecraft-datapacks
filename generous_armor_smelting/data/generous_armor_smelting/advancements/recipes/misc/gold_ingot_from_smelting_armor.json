@@ -1,0 +1,76 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "generous_armor_smelting:gold_ingot_from_smelting_armor"
+    ]
+  },
+  "criteria": {
+    "has_golden_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [ "minecraft:golden_helmet" ]
+          }
+        ]
+      }
+    },
+    "has_golden_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [ "minecraft:golden_chestplate" ]
+          }
+        ]
+      }
+    },
+    "has_golden_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [ "minecraft:golden_leggings" ]
+          }
+        ]
+      }
+    },
+    "has_golden_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [ "minecraft:golden_boots" ]
+          }
+        ]
+      }
+    },
+    "has_golden_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [ "minecraft:golden_horse_armor" ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "generous_armor_smelting:gold_ingot_from_smelting_armor"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_golden_helmet",
+      "has_golden_chestplate",
+      "has_golden_leggings",
+      "has_golden_boots",
+      "has_golden_horse_armor",
+      "has_the_recipe"
+    ]
+  ]
+}

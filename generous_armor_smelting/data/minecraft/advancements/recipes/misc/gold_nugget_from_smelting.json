@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:golden_pickaxe"
+            "items": [ "minecraft:golden_pickaxe" ]
           }
         ]
       }
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:golden_shovel"
+            "items": [ "minecraft:golden_shovel" ]
           }
         ]
       }
@@ -31,7 +31,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:golden_axe"
+            "items": [ "minecraft:golden_axe" ]
           }
         ]
       }
@@ -41,7 +41,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:golden_hoe"
+            "items": [ "minecraft:golden_hoe" ]
           }
         ]
       }
@@ -51,7 +51,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:golden_sword"
+            "items": [ "minecraft:golden_sword" ]
           }
         ]
       }

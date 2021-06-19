@@ -1,9 +1,9 @@
 # Improved Leads
 
-Tested in Minecraft 1.15.2 and snapshot 20w16a
+Tested in Minecraft 1.17.1
 
-Last edited 04/17/2020
+Last edited 06/18/2021
 
 # About
 
-Changes the crafting recipe for leads to omit slime balls.  This recipe uses all string instead.
+Adds a crafting recipe for leads that omits slime balls.  This recipe uses all string instead.

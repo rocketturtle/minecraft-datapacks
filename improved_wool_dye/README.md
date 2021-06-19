@@ -1,8 +1,8 @@
 # Improved Wool Dyeing
 
-Tested in Minecraft 1.15.2 and snapshot 20w16a
+Tested in Minecraft 1.17.1
 
-Last edited 04/17/2020
+Last edited 06/18/2021
 
 # About
 
