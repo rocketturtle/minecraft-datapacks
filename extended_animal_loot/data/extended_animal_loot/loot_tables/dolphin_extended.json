@@ -47,7 +47,10 @@
                 } 
             },
             { "function": "set_name",
-              "name": "Raw Dolphin",
+              "name": {
+			    "text": "Raw Dolphin",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",
@@ -73,7 +76,10 @@
               ]
             },
             { "function": "set_name",
-			  "name": "Cooked Dolphin",
+              "name": {
+			    "text": "Cooked Dolphin",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",

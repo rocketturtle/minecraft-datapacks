@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    { "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "condition": "killed_by_player" }
+       ],
+      "entries": [
+        { "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            { "function": "minecraft:set_count",
+              "count": {
+                "min": -2.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            { "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ]
+        }
+      ]
+	},
+	{ "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "condition": "killed_by_player" },
+        { "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.05,
+          "looting_multiplier": 0.02
+        }
+       ],
+      "entries": [
+        { "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        },
+		{ "type": "minecraft:item",
+          "name": "minecraft:bowl"
+		},
+		{ "type": "minecraft:loot_table",
+          "name": "extended_enemy_loot:groups/mushrooms"
+		},
+		{ "type": "minecraft:item",
+          "name": "minecraft:cocoa_beans"
+		}
+      ]
+	}
+  ]
+}

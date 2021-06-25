@@ -24,7 +24,10 @@
               }
             },
             { "function": "set_name",
-              "name": "Wolf Hide",
+              "name": {
+			    "text": "Wolf Hide",
+			    "italic": false
+			  },
 			  "entity": "this"
             }
           ]
@@ -51,7 +54,10 @@
                 } 
             },
             { "function": "set_name",
-              "name": "Raw Wolf",
+              "name": {
+			    "text": "Raw Wolf",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",
@@ -77,7 +83,10 @@
               ]
             },
             { "function": "set_name",
-			  "name": "Cooked Wolf",
+              "name": {
+			    "text": "Cooked Wolf",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",

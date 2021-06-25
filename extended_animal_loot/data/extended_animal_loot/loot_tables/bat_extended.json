@@ -24,7 +24,10 @@
               }
             },
             { "function": "set_name",
-              "name": "Bat Hide",
+              "name": {
+			    "text": "Bat Hide",
+			    "italic": false
+			  },
 			  "entity": "this"
             }
           ]

@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    { "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:item",
+          "name": "minecraft:green_dye",
+          "functions": [
+            { "function": "minecraft:set_count",
+              "count": {
+                "min": -1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            { "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            },
+			{ "function": "set_name",
+              "name": {
+			    "text": "Creeper Green",
+			    "italic": false
+			  },
+			  "entity": "this"
+			}
+          ]
+        }
+      ]
+    },
+	{ "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "condition": "killed_by_player" },
+        { "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.025,
+          "looting_multiplier": 0.01
+        }
+       ],
+      "entries": [
+        { "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            { "function": "set_nbt",
+              "tag": "{Explosion: {Type: 3b, Colors: [I; 3887386], Flicker: 1b, FadeColors: [I; 4312372]}}"
+			},
+			{ "function": "set_name",
+              "name": {
+			    "text": "Creeper Core",
+			    "color": "yellow",
+			    "italic": false
+			  },
+			  "entity": "this"
+			}
+          ]
+        }
+      ]
+	}
+  ]
+}

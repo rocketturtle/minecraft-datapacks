@@ -21,7 +21,10 @@
                 } 
             },
             { "function": "set_name",
-              "name": "Raw Donkey Beef",
+              "name": {
+			    "text": "Raw Donkey Beef",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",
@@ -47,7 +50,10 @@
               ]
             },
             { "function": "set_name",
-			  "name": "Donkey Steak",
+              "name": {
+			    "text": "Donkey Steak",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",

@@ -24,7 +24,10 @@
               }
             },
             { "function": "set_name",
-              "name": "Fox Hide",
+              "name": {
+			    "text": "Fox Hide",
+			    "italic": false
+			  },
 			  "entity": "this"
             }
           ]
@@ -51,7 +54,10 @@
                 } 
             },
             { "function": "set_name",
-              "name": "Raw Fox",
+              "name": {
+			    "text": "Raw Fox",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",
@@ -77,7 +83,10 @@
               ]
             },
             { "function": "set_name",
-			  "name": "Cooked Fox",
+              "name": {
+			    "text": "Cooked Fox",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",

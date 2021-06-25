@@ -21,7 +21,10 @@
                 } 
             },
             { "function": "set_name",
-              "name": "Raw Llama Mutton",
+              "name": {
+			    "text": "Raw Llama Mutton",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",
@@ -47,7 +50,10 @@
               ]
             },
             { "function": "set_name",
-			  "name": "Llama Mutton",
+              "name": {
+			    "text": "Llama Mutton",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",

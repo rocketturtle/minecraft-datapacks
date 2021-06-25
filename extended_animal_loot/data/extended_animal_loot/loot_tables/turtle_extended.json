@@ -59,7 +59,10 @@
                 } 
             },
             { "function": "set_name",
-              "name": "Raw Turtle",
+              "name": {
+			    "text": "Raw Turtle",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",
@@ -85,7 +88,10 @@
               ]
             },
             { "function": "set_name",
-			  "name": "Cooked Turtle",
+              "name": {
+			    "text": "Cooked Turtle",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",

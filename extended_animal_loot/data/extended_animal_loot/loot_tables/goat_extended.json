@@ -47,7 +47,10 @@
                 } 
             },
             { "function": "set_name",
-              "name": "Raw Goat Mutton",
+              "name": {
+			    "text": "Raw Goat Mutton",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",
@@ -73,7 +76,10 @@
               ]
             },
             { "function": "set_name",
-			  "name": "Goat Mutton",
+              "name": {
+			    "text": "Goat Mutton",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",

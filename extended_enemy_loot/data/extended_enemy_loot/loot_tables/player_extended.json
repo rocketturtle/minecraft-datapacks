@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+	{ "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+	    { "condition": "killed_by_player" },
+        { "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.25,
+          "looting_multiplier": 0.1
+        }
+       ],
+      "entries": [
+        { "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            { "function": "fill_player_head",
+              "entity": "this"
+			},
+			{ "function": "set_lore",
+			  "lore": [
+			    [ { "text": "Killed by ",
+			        "color": "purple"
+			      },
+			      { "selector": "@s",
+                    "color": "yellow"
+				  }
+				]
+			  ],
+			  "entity": "killer_player"
+			}
+          ]
+        }
+      ]
+	}
+  ]
+}

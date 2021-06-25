@@ -4,9 +4,8 @@
     { "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
-        { "type": "minecraft:tag",
-          "name": "extended_animal_loot:mushrooms",
-		  "expand": true,
+        { "type": "minecraft:loot_table",
+          "name": "extended_enemy_loot:groups/mushrooms",
           "functions": [
             { "function": "minecraft:set_count",
               "count": {

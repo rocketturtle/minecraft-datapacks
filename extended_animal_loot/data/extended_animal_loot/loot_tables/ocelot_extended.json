@@ -24,7 +24,10 @@
               }
             },
             { "function": "set_name",
-              "name": "Ocelot Hide",
+              "name": {
+			    "text": "Ocelot Hide",
+			    "italic": false
+			  },
 			  "entity": "this"
             }
           ]
@@ -51,7 +54,10 @@
                 } 
             },
             { "function": "set_name",
-              "name": "Raw Ocelot",
+              "name": {
+			    "text": "Raw Ocelot",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",
@@ -77,7 +83,10 @@
               ]
             },
             { "function": "set_name",
-			  "name": "Cooked Ocelot",
+              "name": {
+			    "text": "Cooked Ocelot",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",

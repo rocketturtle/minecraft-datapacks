@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    { "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "condition": "killed_by_player" }
+       ],
+      "entries": [
+        { "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            { "function": "minecraft:set_count",
+              "count": {
+                "min": -2.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            { "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ]
+        }
+      ]
+	},
+	{ "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "condition": "killed_by_player" },
+        { "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.1,
+          "looting_multiplier": 0.05
+        }
+       ],
+      "entries": [
+        { "type": "minecraft:tag",
+          "name": "extended_enemy_loot:seeds",
+		  "expand": true
+        },
+		{ "type": "minecraft:tag",
+          "name": "minecraft:carpets",
+		  "expand": true
+		},
+		{ "type": "minecraft:tag",
+          "name": "minecraft:saplings",
+		  "expand": true
+		},
+		{ "type": "minecraft:tag",
+          "name": "minecraft:small_flowers",
+		  "expand": true
+		}
+      ]
+	}
+  ]
+}

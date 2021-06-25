@@ -21,7 +21,10 @@
               }
             },
             { "function": "set_name",
-              "name": "Pollen",
+              "name": {
+			    "text": "Pollen",
+			    "italic": false
+			  },
 			  "entity": "this"
             }
           ]

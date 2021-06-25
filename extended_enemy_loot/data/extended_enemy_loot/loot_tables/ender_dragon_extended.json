@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    { "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:item",
+          "name": "minecraft:elytra"
+        }
+      ]
+    },
+	{ "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "condition": "killed_by_player" }
+       ],
+      "entries": [
+        { "type": "minecraft:item",
+          "name": "minecraft:dragon_head",
+          "functions": [
+            { "function": "set_lore",
+			  "lore": [
+			    [ { "text": "Killed by ",
+			        "color": "purple"
+			      },
+			      { "selector": "@s",
+                    "color": "yellow"
+				  }
+				]
+			  ],
+			  "entity": "killer_player"
+			}
+          ]
+        }
+      ]
+	},
+	{ "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:loot_table",
+          "name": "minecraft:chests/end_city_treasure"
+        }
+      ]
+	}
+  ]
+}

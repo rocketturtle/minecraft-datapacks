@@ -21,7 +21,10 @@
                 } 
             },
             { "function": "set_name",
-              "name": "Raw Horse Beef",
+              "name": {
+			    "text": "Raw Horse Beef",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",
@@ -47,7 +50,10 @@
               ]
             },
             { "function": "set_name",
-			  "name": "Horse Steak",
+              "name": {
+			    "text": "Horse Steak",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",

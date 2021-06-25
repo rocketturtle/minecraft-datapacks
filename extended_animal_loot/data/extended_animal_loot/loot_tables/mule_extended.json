@@ -21,7 +21,10 @@
                 } 
             },
             { "function": "set_name",
-              "name": "Raw Mule Beef",
+              "name": {
+			    "text": "Raw Mule Beef",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",
@@ -47,7 +50,10 @@
               ]
             },
             { "function": "set_name",
-			  "name": "Mule Steak",
+              "name": {
+			    "text": "Mule Steak",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",

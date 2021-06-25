@@ -1,0 +1,143 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    { "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:item",
+          "name": "minecraft:porkchop",
+          "functions": [
+            { "function": "minecraft:set_count",
+              "count": {
+                "min": -1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              } 
+            },
+            { "function": "minecraft:looting_enchant",
+                "count": {
+                  "min": 0.0,
+                  "max": 1.0
+                } 
+            },
+            { "function": "set_name",
+              "name": {
+			    "text": "Raw Piglin",
+			    "italic": false
+			  },
+			  "entity": "this",
+              "conditions": [
+                { "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "flags": {
+                     "is_on_fire": false
+                    }
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+			{ "function": "minecraft:furnace_smelt",
+              "conditions": [
+                { "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "flags": {
+                      "is_on_fire": true
+                    }
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            { "function": "set_name",
+              "name": {
+			    "text": "Cooked Piglin",
+			    "italic": false
+			  },
+			  "entity": "this",
+              "conditions": [
+                { "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "flags": {
+                      "is_on_fire": true
+                    }
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+	},
+	{ "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.05,
+          "looting_multiplier": 0.02
+        }
+       ],
+      "entries": [
+        { "type": "minecraft:item",
+          "name": "minecraft:gold_ingot"
+        }
+      ]
+	},
+	{ "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "condition": "killed_by_player" },
+        { "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.05,
+          "looting_multiplier": 0.02
+        }
+       ],
+      "entries": [
+        { "type": "minecraft:item",
+          "name": "minecraft:nether_wart"
+        },
+		{ "type": "minecraft:item",
+          "name": "minecraft:quartz"
+		},
+		{ "type": "minecraft:item",
+          "name": "minecraft:magma_cream"
+		},
+		{ "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust"
+		},
+		{ "type": "minecraft:loot_table",
+          "name": "extended_enemy_loot:groups/mushrooms"
+		}
+      ]
+	},
+	{ "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+	    { "condition": "killed_by_player" },
+        { "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.025,
+          "looting_multiplier": 0.01
+        }
+       ],
+      "entries": [
+        { "type": "minecraft:item",
+          "name": "minecraft:golden_axe",
+          "functions": [
+            { "function": "set_name",
+              "name": {
+			    "text": "Brutal Golden Axe",
+			    "color": "yellow",
+				"italic": false
+			  },
+			  "entity": "this"
+            },
+			{ "function": "enchant_randomly",
+			  "enchantments": [ "minecraft:sharpness" ]
+			}
+          ]
+        }
+      ]
+	}
+  ]
+}

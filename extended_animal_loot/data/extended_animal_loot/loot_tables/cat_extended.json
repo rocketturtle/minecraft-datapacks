@@ -24,7 +24,10 @@
               }
             },
             { "function": "set_name",
-              "name": "Cat Hide",
+              "name": {
+			    "text": "Cat Hide",
+			    "italic": false
+			  },
 			  "entity": "this"
             }
           ]
@@ -51,7 +54,10 @@
                 } 
             },
             { "function": "set_name",
-              "name": "Raw Cat",
+              "name": {
+			    "text": "Raw Cat",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",
@@ -77,7 +83,10 @@
               ]
             },
             { "function": "set_name",
-			  "name": "Cooked Cat",
+              "name": {
+			    "text": "Cooked Cat",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",

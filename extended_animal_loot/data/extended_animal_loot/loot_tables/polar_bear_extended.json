@@ -47,7 +47,10 @@
                 } 
             },
             { "function": "set_name",
-              "name": "Raw Bear Steak",
+              "name": {
+			    "text": "Raw Bear Steak",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",
@@ -73,7 +76,10 @@
               ]
             },
             { "function": "set_name",
-			  "name": "Bear Steak",
+              "name": {
+			    "text": "Bear Steak",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",

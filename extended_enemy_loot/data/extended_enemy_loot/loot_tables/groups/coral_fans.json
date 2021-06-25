@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    { "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:tag",
+          "name": "extended_enemy_loot:live_coral_fans",
+		  "expand": true
+        },
+		{ "type": "minecraft:tag",
+          "name": "extended_enemy_loot:dead_coral_fans",
+		  "expand": true
+		}
+      ]
+    }
+  ]
+}

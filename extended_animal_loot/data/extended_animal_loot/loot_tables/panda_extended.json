@@ -47,7 +47,10 @@
                 } 
             },
             { "function": "set_name",
-              "name": "Raw Panda",
+              "name": {
+			    "text": "Raw Panda",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",
@@ -73,7 +76,10 @@
               ]
             },
             { "function": "set_name",
-			  "name": "Cooked Panda",
+              "name": {
+			    "text": "Cooked Panda",
+			    "italic": false
+			  },
 			  "entity": "this",
               "conditions": [
                 { "condition": "minecraft:entity_properties",

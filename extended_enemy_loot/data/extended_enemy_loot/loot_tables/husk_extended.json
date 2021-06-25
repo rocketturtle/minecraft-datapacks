@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+	{ "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "condition": "minecraft:killed_by_player" },
+        { "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.11,
+          "looting_multiplier": 0.02
+        }
+      ],
+      "entries": [
+        { "type": "minecraft:item",
+          "name": "minecraft:iron_ingot"
+        }
+      ]
+	},
+	{ "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "condition": "killed_by_player" },
+        { "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.05,
+          "looting_multiplier": 0.02
+        }
+       ],
+      "entries": [
+        { "type": "minecraft:item",
+          "name": "minecraft:carrot"
+        },
+        { "type": "minecraft:item",
+		"name": "minecraft:potato",
+          "functions": [
+            { "function": "minecraft:furnace_smelt",
+              "conditions": [
+                { "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "flags": {
+                      "is_on_fire": true
+                    }
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+		{ "type": "minecraft:item",
+          "name": "minecraft:leather"
+        },
+		{ "type": "minecraft:item",
+          "name": "minecraft:stick"
+		},
+		{ "type": "minecraft:item",
+          "name": "minecraft:rabbit_foot"
+		},
+		{ "type": "minecraft:loot_table",
+          "name": "extended_enemy_loot:groups/candles"
+		}
+      ]
+	}
+  ]
+}

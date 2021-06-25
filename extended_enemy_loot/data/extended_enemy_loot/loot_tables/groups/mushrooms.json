@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    { "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:tag",
+          "name": "extended_enemy_loot:mushrooms",
+		  "expand": true
+        }
+      ]
+    }
+  ]
+}

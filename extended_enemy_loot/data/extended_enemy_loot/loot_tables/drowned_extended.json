@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+	{ "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "condition": "killed_by_player" },
+        { "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.05,
+          "looting_multiplier": 0.02
+        }
+       ],
+      "entries": [
+        { "type": "minecraft:item",
+          "name": "minecraft:kelp"
+        },
+		{ "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "functions": [
+            { "function": "minecraft:furnace_smelt",
+              "conditions": [
+                { "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "flags": {
+                      "is_on_fire": true
+                    }
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+		},
+		{ "type": "minecraft:item",
+          "name": "minecraft:sea_pickle"
+		},
+		{ "type": "minecraft:item",
+          "name": "minecraft:turtle_egg"
+		},
+		{ "type": "minecraft:loot_table",
+          "name": "extended_enemy_loot:groups/coral_fans"
+		}
+      ]
+	}
+  ]
+}
