@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 13,
+          "name": "minecraft:flowering_azalea"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "minecraft:stick"
+        }
+      ]
+    }
+  ]
+}
