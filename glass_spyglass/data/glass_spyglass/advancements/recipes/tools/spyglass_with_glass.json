@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "glass_spyglass:spyglass_with_glass"
+    ]
+  },
+  "criteria": {
+    "has_spyglass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [ "minecraft:spyglass" ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "glass_spyglass:spyglass_with_glass"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_spyglass",
+      "has_the_recipe"
+    ]
+  ]
+}

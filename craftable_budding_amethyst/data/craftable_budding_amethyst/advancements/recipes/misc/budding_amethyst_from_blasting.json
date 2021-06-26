@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftable_budding_amethyst:budding_amethyst_from_blasting"
+    ]
+  },
+  "criteria": {
+    "has_amethyst_cluster": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [ "minecraft:amethyst_cluster" ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftable_budding_amethyst:budding_amethyst_from_blasting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_amethyst_cluster",
+      "has_the_recipe"
+    ]
+  ]
+}

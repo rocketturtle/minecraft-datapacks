@@ -2,13 +2,15 @@
 
 Tested in Minecraft 1.17.1
 
-Last edited 06/18/2021
+Last edited 06/25/2021
 
 # About
 
 Adds "uncrafting" recipes for some storage blocks and brick blocks.  Includes the following:
 
- * Nether wart block
- * Block of quartz
+ * Nether Wart Block
+ * Block of Quartz
  * Bricks
  * Nether Bricks
+ * Block of Amethyst
+ 

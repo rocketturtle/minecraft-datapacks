@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "craftable_dirts:dirts"
+        },
+        {
+            "item": "minecraft:hanging_roots"
+        }
+    ],
+    "result": {
+        "item": "minecraft:rooted_dirt"
+    }
+}

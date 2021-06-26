@@ -6,7 +6,7 @@
     ],
     "key": {
         "D": {
-            "item": "minecraft:dirt"
+            "tag": "craftable_dirts:dirts"
         },
         "M": {
             "tag": "craftable_dirts:mushrooms"
@@ -14,6 +14,6 @@
     },
     "result": {
         "item": "minecraft:mycelium",
-        "count": 1
+        "count": 2
     }
 }

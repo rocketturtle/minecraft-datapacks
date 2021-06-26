@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:amethyst_cluster"
+  },
+  "result": "minecraft:budding_amethyst",
+  "experience": 5.6,
+  "cookingtime": 2000
+}
