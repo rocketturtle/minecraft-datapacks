@@ -1,0 +1,22 @@
+{
+  "parent": "blinding_endermen:blinding_endermen/root",
+  "rewards": {
+    "function": "blinding_endermen:do_blinding"
+  },
+  "criteria": {
+    "hurt_by_enderman": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+			"type": {
+				"source_entity": { "type": "minecraft:enderman" }
+			},
+			"taken": { "min": 1.0 }
+		}
+      }
+    }
+  },
+  "requirements": [
+    [ "hurt_by_enderman" ]
+  ]
+}
