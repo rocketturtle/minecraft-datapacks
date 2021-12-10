@@ -1,6 +1,6 @@
  {
   "pack": {
-    "pack_format": 7,
+    "pack_format": 8,
     "description": "Craft cobblestone to gravel, gravel to sand, and gravel to flint.  Also other stones!"
   }
 }

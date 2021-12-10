@@ -1,8 +1,8 @@
 # Enderman No-Grab
 
-Tested in Minecraft 1.17.1
+Tested in Minecraft 1.18.1
 
-Last edited 06/18/2021
+Last edited 12/08/2021
 
 # About
 

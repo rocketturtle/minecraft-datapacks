@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "broken_bricks",
+    "ingredients": [
+        {
+            "tag": "breaking_stones:brick_breakables"
+        },
+        {
+            "tag": "breaking_stones:brick_breakables"
+        },
+        {
+            "tag": "breaking_stones:brick_breakables"
+        },
+        {
+            "tag": "breaking_stones:brick_breakables"
+        },
+        {
+            "tag": "breaking_stones:brick_breakables"
+        },
+        {
+            "tag": "breaking_stones:brick_breakables"
+        },
+        {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        {
+            "tag": "breaking_stones:brick_breakables"
+        },
+        {
+            "tag": "breaking_stones:brick_breakables"
+        }
+    ],
+    "result": {
+        "item": "minecraft:brick",
+        "count": 32
+    }
+}

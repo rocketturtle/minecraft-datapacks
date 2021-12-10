@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "craftable_bundle",
+    "pattern": [
+        "# #",
+        "L L",
+        " L "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:string"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
+    },
+    "result": {
+        "item": "minecraft:bundle",
+        "count": 1
+    }
+}

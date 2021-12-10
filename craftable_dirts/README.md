@@ -1,9 +1,19 @@
 # Craftable Dirt Types
 
-Tested in Minecraft 1.17.1
+Tested in Minecraft 1.18.1
 
-Last edited 06/25/2021
+Last edited 12/07/2021
 
 # About
 
-Adds crafting recipes for mycelium, podzol, rooted dirt, crimson nylium, and warped nylium.  Find the ingredients in the recipe book!
+Adds crafting recipes for mycelium, podzol, rooted dirt, crimson nylium, and warped nylium.  New recipes are integrated into the vanilla recipe book!
+
+# Details
+
+Recipes follow the same form as for coarse dirt, but with different ingredients.
+
+ - 2 dirt or coarse dirt, 2 mushrooms (either color) -> 2 mycelium
+ - 2 coarse dirt, 2 spruce leaves -> 2 podzol
+ - 2 dirt or coarse dirt, 2 hanging roots -> 2 rooted dirt
+ - 2 netherrack, 2 crimsom fungus -> 2 crimson nylium
+ - 2 netherrack, 2 warped fungus -> 2 warped nylium

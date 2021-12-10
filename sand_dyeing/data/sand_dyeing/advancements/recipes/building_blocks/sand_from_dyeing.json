@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "uncrafting_blocks:nether_brick"
+      "sand_dyeing:sand_from_dyeing"
     ]
   },
   "criteria": {
-    "has_nether_bricks": {
+    "has_white_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [ "minecraft:nether_bricks" ]
+            "items": [ "minecraft:white_dye" ]
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "uncrafting_blocks:nether_brick"
+        "recipe": "sand_dyeing:sand_from_dyeing"
       }
     }
   },
   "requirements": [
     [
-      "has_nether_bricks",
+      "has_white_dye",
       "has_the_recipe"
     ]
   ]

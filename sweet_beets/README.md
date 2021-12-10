@@ -1,9 +1,15 @@
 # Sweet Beets
 
-Tested in Minecraft 1.17.1
+Tested in Minecraft 1.18.1
 
-Last edited 06/18/2021
+Last edited 12/08/2021
 
 # About
 
 Allows sugar to be cooked out of beets.  A very useful crop!
+
+# Details
+
+Adds smelting and smoker recipes to cook beets into sugar.  Recipe is:
+
+ - 1 beetroot -> 1 sugar

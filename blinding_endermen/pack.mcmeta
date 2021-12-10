@@ -1,6 +1,6 @@
  {
   "pack": {
-    "pack_format": 7,
+    "pack_format": 8,
     "description": "Endermen give Blind effect to player on hit."
   }
 }

@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "broken_basalts",
+    "ingredients": [
+        {
+            "tag": "breaking_stones:basalt_breakables"
+        },
+        {
+            "tag": "breaking_stones:basalt_breakables"
+        },
+        {
+            "tag": "breaking_stones:basalt_breakables"
+        },
+        {
+            "tag": "breaking_stones:basalt_breakables"
+        },
+        {
+            "tag": "breaking_stones:basalt_breakables"
+        },
+        {
+            "tag": "breaking_stones:basalt_breakables"
+        },
+        {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        {
+            "tag": "breaking_stones:basalt_breakables"
+        },
+        {
+            "tag": "breaking_stones:basalt_breakables"
+        }
+    ],
+    "result": {
+        "item": "minecraft:basalt",
+        "count": 8
+    }
+}

@@ -1,9 +1,17 @@
 # Craftable Name Tags
 
-Tested in Minecraft 1.17.1
+Tested in Minecraft 1.18.1
 
-Last edited 06/22/2021
+Last edited 12/07/2021
 
 # About
 
-Creates a simple crafting recipe for name tags.  Find the new ingredients in the recipe book!
+Creates a simple crafting recipe for name tags.  New recipe is integrated into the vanilla recipe book!
+
+# Details
+
+Recipe requires the following ingredients:
+
+ - 2 paper, 1 string -> 1 name tag
+ 
+ Recpie will be added to the recipe book once the player finds a name tag in some other way.

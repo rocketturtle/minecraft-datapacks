@@ -1,16 +1,19 @@
 # Uncrafting Blocks
 
-Tested in Minecraft 1.17.1
+Tested in Minecraft 1.18.1
 
-Last edited 06/25/2021
+Last edited 12/08/2021
 
 # About
 
-Adds "uncrafting" recipes for some storage blocks and brick blocks.  Includes the following:
+Adds "uncrafting" recipes for some storage blocks.  New recipes are integrated into the vanilla recipe book!
 
- * Nether Wart Block
- * Block of Quartz
- * Bricks
- * Nether Bricks
- * Block of Amethyst
+# Details
+
+Recipes provided:
+
+ - 1 amethyst block -> 4 amethyst shard
+ - 1 honeycomb block - 4 honeycomb
+ - 1 nether wart block -> 9 nether wart
+ - 1 quartz block -> 4 quartz
  

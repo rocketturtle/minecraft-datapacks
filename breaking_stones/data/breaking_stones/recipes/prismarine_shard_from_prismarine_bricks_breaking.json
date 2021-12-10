@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "broken_prismarine",
+    "ingredients": [
+        {
+            "tag": "breaking_stones:prismarine_bricks_breakables"
+        },
+        {
+            "tag": "breaking_stones:prismarine_bricks_breakables"
+        },
+        {
+            "tag": "breaking_stones:prismarine_bricks_breakables"
+        },
+        {
+            "tag": "breaking_stones:prismarine_bricks_breakables"
+        },
+        {
+            "tag": "breaking_stones:prismarine_bricks_breakables"
+        },
+        {
+            "tag": "breaking_stones:prismarine_bricks_breakables"
+        },
+        {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        {
+            "tag": "breaking_stones:prismarine_bricks_breakables"
+        },
+        {
+            "tag": "breaking_stones:prismarine_bricks_breakables"
+        }
+    ],
+    "result": {
+        "item": "minecraft:prismarine_shard",
+        "count": 64
+    }
+}

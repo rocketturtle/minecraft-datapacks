@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "broken_purpur",
+    "ingredients": [
+        {
+            "tag": "breaking_stones:popped_chorus_fruit_breakables"
+        },
+        {
+            "tag": "breaking_stones:popped_chorus_fruit_breakables"
+        },
+        {
+            "tag": "breaking_stones:popped_chorus_fruit_breakables"
+        },
+        {
+            "tag": "breaking_stones:popped_chorus_fruit_breakables"
+        },
+        {
+            "tag": "breaking_stones:popped_chorus_fruit_breakables"
+        },
+        {
+            "tag": "breaking_stones:popped_chorus_fruit_breakables"
+        },
+        {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        {
+            "tag": "breaking_stones:popped_chorus_fruit_breakables"
+        },
+        {
+            "tag": "breaking_stones:popped_chorus_fruit_breakables"
+        }
+    ],
+    "result": {
+        "item": "minecraft:popped_chorus_fruit",
+        "count": 32
+    }
+}

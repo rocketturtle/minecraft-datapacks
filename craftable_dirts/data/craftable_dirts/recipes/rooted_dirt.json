@@ -1,14 +1,19 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DR",
+        "RD"
+    ],
+    "key": {
+        "D": {
             "tag": "craftable_dirts:dirts"
         },
-        {
+        "R": {
             "item": "minecraft:hanging_roots"
         }
-    ],
+    },
     "result": {
-        "item": "minecraft:rooted_dirt"
+        "item": "minecraft:rooted_dirt",
+        "count": 2
     }
 }

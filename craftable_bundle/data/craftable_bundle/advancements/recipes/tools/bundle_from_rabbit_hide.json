@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "uncrafting_blocks:brick"
+      "craftable_bundle:bundle_from_rabbit_hide"
     ]
   },
   "criteria": {
-    "has_bricks": {
+    "has_rabbit_hide": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [ "minecraft:bricks" ]
+            "items": [ "minecraft:rabbit_hide" ]
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "uncrafting_blocks:brick"
+        "recipe": "craftable_bundle:bundle_from_rabbit_hide"
       }
     }
   },
   "requirements": [
     [
-      "has_bricks",
+      "has_rabbit_hide",
       "has_the_recipe"
     ]
   ]

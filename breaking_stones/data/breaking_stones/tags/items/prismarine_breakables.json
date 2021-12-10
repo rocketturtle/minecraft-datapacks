@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:prismarine",
+	"minecraft:prismarine_wall",
+    "minecraft:prismarine_stairs"
+  ]
+}
