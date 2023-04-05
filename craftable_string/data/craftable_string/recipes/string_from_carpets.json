@@ -3,7 +3,7 @@
   "group": "craftable_string",
   "ingredients": [
     {
-      "tag": "minecraft:carpets"
+      "tag": "minecraft:wool_carpets"
     }
   ],
   "result": {

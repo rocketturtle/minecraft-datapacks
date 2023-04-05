@@ -1,8 +1,8 @@
 # Craftable Bundle
 
-Tested in Minecraft 1.18.1
+Tested in Minecraft 1.19.4
 
-Last edited 12/04/2021
+Last edited 04/04/2023
 
 # About
 

@@ -42,7 +42,7 @@
 		  "expand": true
         },
 		{ "type": "minecraft:tag",
-          "name": "minecraft:carpets",
+          "name": "minecraft:wool_carpets",
 		  "expand": true
 		},
 		{ "type": "minecraft:tag",

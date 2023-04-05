@@ -1,8 +1,8 @@
 # Extended Enemy Loot (and some Friends!)
 
-Tested in Minecraft 1.18.1
+Tested in Minecraft 1.19.4
 
-Last edited 12/09/2021
+Last edited 04/04/2023
 
 # About
 
@@ -37,5 +37,5 @@ Extends most of the vanilla mob loot tables with a chance for some new drops.  V
  - Wandering Trader: emeralds; rarely random seeds, random carpets, random saplings, or a random flower
  - Wither: bones, coal, wither skelleton skull (rare)
  - Zombie: slightly improved iron ingot drop chance; rarely carrot, potato, cookie, clay ball, red or brown mushrooms, or a random candle
- - Zombie Villager: slightly improved iron ingot drop chance; rarely carrot, potato, emerald, bread, red or brown mushrroms, or a random candle
+ - Zombie Villager: slightly improved iron ingot drop chance; rarely carrot, potato, emerald, bread, red or brown mushrooms, or a random candle
  - Zombified Piglin: gold nuggets, gold ingot; rarely bone, nether wart, quartz, glowstone dust, or red or brown mushrooms

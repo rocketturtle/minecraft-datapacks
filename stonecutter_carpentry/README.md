@@ -1,8 +1,8 @@
 # Stonecutter Carpentry
 
-Tested in Minecraft 1.18.1
+Tested in Minecraft 1.19.4
 
-Last edited 12/08/2021
+Last edited 04/04/2023
 
 # About
 
@@ -16,6 +16,7 @@ Extensive set of new recipes added to the stonecutter, to handle all forms of it
  - Birch Logs (stripped and not), Wood (stripped and not), and Planks
  - Dark Oak Logs (stripped and not), Wood (stripped and not), and Planks
  - Jungle Logs (stripped and not), Wood (stripped and not), and Planks
+ - Mangrove Logs (stripped and not), Wood (stripped and not), and Planks
  - Oak Logs (stripped and not), Wood (stripped and not), and Planks
  - Spruce Logs (stripped and not), Wood (stripped and not), and Planks
  - Crimson Stems (stripped and not), Hyphae (stripped and not), and Planks

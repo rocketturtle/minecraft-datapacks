@@ -1,8 +1,8 @@
 # Generous Armor Smelting
 
-Tested in Minecraft 1.17.1
+Tested in Minecraft 1.19.4
 
-Last edited 06/18/2021
+Last edited 04/04/2023
 
 # About
 

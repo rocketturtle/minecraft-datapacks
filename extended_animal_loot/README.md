@@ -1,8 +1,8 @@
 # Extended Animal Loot
 
-Tested in Minecraft 1.18.1
+Tested in Minecraft 1.19.4
 
-Last edited 12/09/2021
+Last edited 04/04/2023
 
 # About
 
@@ -22,6 +22,7 @@ Since there is not yet a way to create new types of items with data packs, these
  - Donkey: Raw Donkey Beef
  - Endermite: pink, purple, or magenta dye
  - Fox: Fox Hide, Raw Fox
+ - Frog: Raw Frog, frogspawn
  - Goat: leather, Raw Goat Mutton
  - Horse: Raw Horse Beef
  - Llama: Raw Llama Mutton
