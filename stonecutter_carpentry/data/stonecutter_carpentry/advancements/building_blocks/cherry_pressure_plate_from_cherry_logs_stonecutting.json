@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "stonecutter_carpentry:cherry_pressure_plate_from_cherry_logs_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_cherry_logs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:cherry_logs"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "stonecutter_carpentry:cherry_pressure_plate_from_cherry_logs_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cherry_logs",
+      "has_the_recipe"
+    ]
+  ]
+}

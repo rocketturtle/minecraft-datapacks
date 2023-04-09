@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "stonecutter_carpentry:wooden_axe_from_bamboo_blocks_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_bamboo_blocks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:bamboo_blocks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "stonecutter_carpentry:wooden_axe_from_bamboo_blocks_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bamboo_blocks",
+      "has_the_recipe"
+    ]
+  ]
+}

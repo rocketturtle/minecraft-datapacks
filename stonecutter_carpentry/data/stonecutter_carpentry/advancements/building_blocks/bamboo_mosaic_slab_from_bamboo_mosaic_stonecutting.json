@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "stonecutter_carpentry:bamboo_mosaic_slab_from_bamboo_mosaic_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_bamboo_mosaic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [ "minecraft:bamboo_mosaic" ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "stonecutter_carpentry:bamboo_mosaic_slab_from_bamboo_mosaic_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bamboo_mosaic",
+      "has_the_recipe"
+    ]
+  ]
+}
