@@ -10,7 +10,7 @@
             "item": "minecraft:leather"
         },
         "c": {
-            "tag": "minecraft:carpets"
+            "tag": "minecraft:wool_carpets"
         }
     },
     "result": {
