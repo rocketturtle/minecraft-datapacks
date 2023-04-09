@@ -1,8 +1,8 @@
 # Stonecutter Carpentry
 
-Tested in Minecraft 1.19.4
+Tested in Minecraft 23w14a
 
-Last edited 04/04/2023
+Last edited 04/09/2023
 
 # About
 
@@ -13,7 +13,9 @@ Adds full stonecutter support for wood-based carpentry.  New recipes are integra
 Extensive set of new recipes added to the stonecutter, to handle all forms of items made with planks.  Adds recipes made from the following:
 
  - Acacia Logs (stripped and not), Wood (stripped and not), and Planks
+ - Bamboo Blocks (stripped and not), Planks, and Mosaic
  - Birch Logs (stripped and not), Wood (stripped and not), and Planks
+ - Cherry Logs (stripped and not), Wood (stripped and not), and Planks
  - Dark Oak Logs (stripped and not), Wood (stripped and not), and Planks
  - Jungle Logs (stripped and not), Wood (stripped and not), and Planks
  - Mangrove Logs (stripped and not), Wood (stripped and not), and Planks
