@@ -2,7 +2,7 @@
 
 Tested in Minecraft 23w14a
 
-Last edited 04/09/2023
+Last edited 04/10/2023
 
 # About
 
@@ -16,6 +16,7 @@ Since there is not yet a way to create new types of items with data packs, these
 
  - Bat: Bat Hide
  - Bee: Pollen (yellow dye)
+ - Camel: leather, Raw Camel Mutton
  - Cat: Cat Hide, Raw Cat
  - Cave Spider: cobweb, Toxic Ichor
  - Dolphin: leather, Raw Dolphin
@@ -35,6 +36,7 @@ Since there is not yet a way to create new types of items with data packs, these
  - Sheep: leather
  - Sliverfish: flint, gray dye, iron nugget, gold nugget, lapis lazuli, or redstone
  - Skeleton Horse: bones, bone meal
+ - Sniffer: leather, cyan and/or red wool, Raw Sniffer Steak, sniffer egg (rare)
  - Spider: cobweb, Sticky Ichor
  - Strider: leather, Raw Strider Mutton
  - Trader Llama: Raw Llama Mutton
