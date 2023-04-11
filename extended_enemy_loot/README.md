@@ -2,7 +2,7 @@
 
 Tested in Minecraft 23w14a
 
-Last edited 04/09/2023
+Last edited 04/11/2023
 
 # About
 
@@ -35,7 +35,7 @@ Extends most of the vanilla mob loot tables with a chance for some new drops.  V
  - Villager: emeralds; rarely potato, carrot, bread, or beetroot
  - Vindicator: rarely beetroot, bowl, red or brown mushrooms, or random seeds
  - Wandering Trader: emeralds; rarely random seeds, random carpets, random saplings, or a random flower
- - Warden: A random roll of the 'ancient city' loot table
+ - Warden: trophy Warden head, and a random roll of the 'ancient city' loot table
  - Wither: bones, coal, wither skeleton skull (rare)
  - Zombie: slightly improved iron ingot drop chance; rarely carrot, potato, cookie, clay ball, red or brown mushrooms, or a random candle
  - Zombie Villager: slightly improved iron ingot drop chance; rarely carrot, potato, emerald, bread, red or brown mushrooms, or a random candle
